@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="defc4be6c3a04710d6079a2ed401311c" sys_domain="global" table="x_461782_trading_0_trading_watchlist_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92fc4be6c3a04710d6079a2ed4013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_461782_trading_0_trading_watchlist_item" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">defc4be6c3a04710d6079a2ed401311c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dafc4be6c3a04710d6079a2ed4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_461782_trading_0_trading_watchlist_item" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">defc4be6c3a04710d6079a2ed401311c</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9efc4be6c3a04710d6079a2ed401311a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_461782_trading_0_trading_watchlist_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>defc4be6c3a04710d6079a2ed401311c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_461782_trading_0_trading_watchlist_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trading Companion" source="x_461782_trading_0">9a4c99cec3240310d6079a2ed401314f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Companion">9a4c99cec3240310d6079a2ed401314f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_defc4be6c3a04710d6079a2ed401311c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

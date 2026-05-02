@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_461782_trading_0_trading_watchlist_item" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Trading Watchlist Item - Default view" name="x_461782_trading_0_trading_watchlist_item" related_list="NULL" sys_domain="global" view="Default view">b7bf8b6ec3a04710d6079a2ed4013105</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_461782_trading_0_trading_alert_rule.watchlist_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:16:09</sys_created_on>
+            <sys_id>3bbf8b6ec3a04710d6079a2ed4013106</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:16:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Trading Watchlist Item - Default view</calculated_name>
+            <filter/>
+            <name>x_461782_trading_0_trading_watchlist_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:16:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7bf8b6ec3a04710d6079a2ed4013105</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Trading Watchlist Item - Default view</sys_name>
+            <sys_package display_value="Trading Companion" source="x_461782_trading_0">9a4c99cec3240310d6079a2ed401314f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Companion">9a4c99cec3240310d6079a2ed401314f</sys_scope>
+            <sys_update_name>sys_ui_related_x_461782_trading_0_trading_watchlist_item_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:16:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

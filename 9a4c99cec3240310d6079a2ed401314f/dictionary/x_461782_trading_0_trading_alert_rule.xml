@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4eac3e2c3a04710d6079a2ed401314f" extends="x_461782_trading_0_trading_watchlist_item" label="Trading Alert Rule" max_length="40" name="x_461782_trading_0_trading_alert_rule" type="collection">
+        <element choice="3" label="Metric Type" max_length="40" name="metric_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RSI" sequence="1" value="rsi"/>
+                <element inactive_on_update="false" label="Volume" sequence="2" value="volume"/>
+                <element inactive_on_update="false" label="Percent Move" sequence="3" value="percent_move"/>
+                <element inactive_on_update="false" label="Price" sequence="0" value="price"/>
+                <element inactive_on_update="false" label="News Event" sequence="4" value="news_event"/>
+            </choice>
+        </element>
+        <element label="Rule Name" max_length="100" name="rule_name" type="string"/>
+        <element label="Threshold Value" max_length="38" name="threshold_value" type="decimal"/>
+        <element label="Watchlist Item" max_length="32" name="watchlist_item" reference="x_461782_trading_0_trading_watchlist_item" type="reference"/>
+        <element choice="3" default="m" label="Timeframe" max_length="40" name="timefram" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1m" sequence="0" value="m"/>
+                <element inactive_on_update="false" label="1h" sequence="4" value="h"/>
+                <element inactive_on_update="false" label="1d" sequence="5" value="d"/>
+                <element inactive_on_update="false" label="1w" sequence="6" value="w"/>
+            </choice>
+        </element>
+        <element label="Last Triggered" max_length="40" name="last_triggered" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="60" label="Cooldown Minutes" max_length="255" name="cooldown_minutes" type="integer"/>
+        <element choice="3" label="Condition" max_length="40" name="condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Greater Than" sequence="0" value="greater_than"/>
+                <element inactive_on_update="false" label="Crosses Above" sequence="2" value="crosses_above"/>
+                <element inactive_on_update="false" label="Crosses Below" sequence="3" value="crosses_below"/>
+                <element inactive_on_update="false" label="Equals" sequence="4" value="equals"/>
+                <element inactive_on_update="false" label="Less Than" sequence="1" value="less_than"/>
+            </choice>
+        </element>
+        <element label="Last Signal" max_length="255" name="last_signal" type="string"/>
+        <index name="index">
+            <element name="watchlist_item"/>
+        </index>
+    </element>
+</database>

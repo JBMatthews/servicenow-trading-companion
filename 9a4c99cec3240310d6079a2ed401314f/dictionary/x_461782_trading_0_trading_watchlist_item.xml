@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="bb92e90ec3640310d6079a2ed401319e" label="Trading Watchlist Item" max_length="40" name="x_461782_trading_0_trading_watchlist_item" type="collection">
+        <element label="Last Checked" max_length="40" name="last_checked" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="Symbol" max_length="40" name="symbol" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="journal"/>
+        <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
+        <element choice="3" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Crypto" sequence="4" value="crypto"/>
+                <element inactive_on_update="false" label="Index" sequence="2" value="index"/>
+                <element inactive_on_update="false" label="Commodity" sequence="3" value="commodity"/>
+                <element inactive_on_update="false" label="ETF" sequence="1" value="etf"/>
+                <element inactive_on_update="false" label="Stock" sequence="0" value="stock"/>
+                <element inactive_on_update="false" label="Volatility" sequence="5" value="volatility"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
