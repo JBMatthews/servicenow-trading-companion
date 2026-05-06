@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="858cd0c4c374cf10d6079a2ed40131ea" label="Market Data Snapshot" max_length="40" name="x_461782_trading_0_market_data_snapshot" type="collection">
+        <element label="Wachlist Item" max_length="32" name="wachlist_item" reference="x_461782_trading_0_trading_watchlist_item" type="reference"/>
+        <element label="Volume" max_length="40" name="volume" type="integer"/>
+        <element label="Moving Average 20" max_length="38" name="moving_average_20" type="decimal"/>
+        <element label="Raw Payload" max_length="255" name="raw_payload" type="string"/>
+        <element label="Low" max_length="38" name="low" type="decimal"/>
+        <element label="Symbol" max_length="40" name="symbol" type="string"/>
+        <element label="RSI" max_length="38" name="rsi" type="decimal"/>
+        <element label="Moving Average 50" max_length="38" name="moving_average_50" type="decimal"/>
+        <element label="High" max_length="38" name="high" type="decimal"/>
+        <element label="Open" max_length="38" name="open" type="decimal"/>
+        <element label="Percent Change" max_length="38" name="percent_change" type="decimal"/>
+        <element label="Price" max_length="38" name="price" type="decimal"/>
+        <element label="Snapshot Time" max_length="40" name="snapshot_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="wachlist_item"/>
+        </index>
+    </element>
+</database>

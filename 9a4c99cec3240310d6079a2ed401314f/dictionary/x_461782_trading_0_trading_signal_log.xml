@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="71c96c6fc368cb10d6079a2ed4013134" label="Trading Signal Log" max_length="40" name="x_461782_trading_0_trading_signal_log" type="collection">
+        <element label="Alert Rule" max_length="32" name="alert_rule" reference="x_461782_trading_0_trading_alert_rule" type="reference"/>
+        <element label="Metric Value" max_length="38" name="metric_value" type="decimal"/>
+        <element label="Raw Payload" max_length="255" name="raw_payload" type="string_full_utf8"/>
+        <element default="now" display="true" label="Triggered At" max_length="255" name="triggered_at" type="glide_date_time"/>
+        <element label="Sent Notification" max_length="255" name="sent_notification" type="boolean"/>
+        <element label="Watchlist Item" max_length="32" name="watchlist_item" reference="x_461782_trading_0_trading_watchlist_item" type="reference"/>
+        <element label="Signal Message" max_length="255" name="signal_message" type="string"/>
+        <index name="index">
+            <element name="alert_rule"/>
+        </index>
+        <index name="index2">
+            <element name="watchlist_item"/>
+        </index>
+    </element>
+</database>

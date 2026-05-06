@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="volume" label="Volume" language="en" table="x_461782_trading_0_market_data_snapshot">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>volume</element>
+            <help/>
+            <hint/>
+            <label>Volume</label>
+            <language>en</language>
+            <name>x_461782_trading_0_market_data_snapshot</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-06 22:08:36</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Volume</sys_name>
+            <sys_package display_value="Trading Companion" source="x_461782_trading_0">9a4c99cec3240310d6079a2ed401314f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Companion">9a4c99cec3240310d6079a2ed401314f</sys_scope>
+            <sys_update_name>sys_documentation_x_461782_trading_0_market_data_snapshot_volume_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-06 22:08:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

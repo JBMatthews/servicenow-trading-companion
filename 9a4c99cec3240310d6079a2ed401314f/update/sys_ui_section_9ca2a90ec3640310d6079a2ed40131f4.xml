@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="9ca2a90ec3640310d6079a2ed40131f4" sys_domain="global" table="x_461782_trading_0_trading_watchlist_item" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>symbol</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:03</sys_created_on>
+            <sys_id>a6fc4be6c3a04710d6079a2ed4013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:03</sys_created_on>
+            <sys_id>66fc4be6c3a04710d6079a2ed4013153</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:03</sys_created_on>
+            <sys_id>22fc4be6c3a04710d6079a2ed4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:03</sys_created_on>
+            <sys_id>eafc4be6c3a04710d6079a2ed4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:04:03</sys_created_on>
+            <sys_id>a6fc4be6c3a04710d6079a2ed4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_461782_trading_0_trading_watchlist_item" sys_domain="global" view="Default view">9ca2a90ec3640310d6079a2ed40131f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:04:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="timefram" table="x_461782_trading_0_trading_alert_rule" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>timefram</element>
+            <name>x_461782_trading_0_trading_alert_rule</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:13:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>timefram</sys_name>
+            <sys_package display_value="Trading Companion" source="x_461782_trading_0">9a4c99cec3240310d6079a2ed401314f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Companion">9a4c99cec3240310d6079a2ed401314f</sys_scope>
+            <sys_update_name>sys_choice_x_461782_trading_0_trading_alert_rule_timefram</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:13:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timefram</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1m</label>
+            <language>en</language>
+            <name>x_461782_trading_0_trading_alert_rule</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:13:56</sys_updated_on>
+            <value>m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timefram</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1h</label>
+            <language>en</language>
+            <name>x_461782_trading_0_trading_alert_rule</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:13:56</sys_updated_on>
+            <value>h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timefram</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1d</label>
+            <language>en</language>
+            <name>x_461782_trading_0_trading_alert_rule</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:13:56</sys_updated_on>
+            <value>d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timefram</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1w</label>
+            <language>en</language>
+            <name>x_461782_trading_0_trading_alert_rule</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-02 19:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-02 19:13:56</sys_updated_on>
+            <value>w</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

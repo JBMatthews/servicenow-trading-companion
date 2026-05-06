@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_461782_trading_0.TradingCompanionEngine</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TradingCompanionEngine</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TradingCompanionEngine = Class.create();
+TradingCompanionEngine.prototype = {
+
+    initialize: function() {},
+
+    run: function() {
+        gs.info("Trading Companion: engine started");
+
+        var gr = new GlideRecord('x_461782_trading_0_trading_watchlist_item');
+        gr.addQuery('active', true);
+        gr.query();
+
+        while (gr.next()) {
+            gs.info("Checking: " + gr.symbol);
+            this.checkRules(gr);
+        }
+
+        gs.info("Trading Companion: engine finished");
+    },
+
+    checkRules: function(watchItem) {
+
+        var rules = new GlideRecord('x_461782_trading_0_trading_alert_rule');
+        rules.addQuery('watchlist_item', watchItem.sys_id);
+        rules.addQuery('active', true);
+        rules.query();
+
+        while (rules.next()) {
+            gs.info("Evaluating rule: " + rules.rule_name);
+        }
+
+    },
+
+    type: 'TradingCompanionEngine'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-05 10:02:34</sys_created_on>
+        <sys_id>d32d6c27c3a8cb10d6079a2ed401317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TradingCompanionEngine</sys_name>
+        <sys_package display_value="Trading Companion" source="x_461782_trading_0">9a4c99cec3240310d6079a2ed401314f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trading Companion">9a4c99cec3240310d6079a2ed401314f</sys_scope>
+        <sys_update_name>sys_script_include_d32d6c27c3a8cb10d6079a2ed401317b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-05 10:02:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
