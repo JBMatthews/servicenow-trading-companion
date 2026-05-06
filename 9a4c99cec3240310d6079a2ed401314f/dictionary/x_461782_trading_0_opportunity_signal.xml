@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="043e9c88c374cf10d6079a2ed4013172" label="Opportunity Signal" max_length="40" name="x_461782_trading_0_opportunity_signal" type="collection">
+        <element label="Confidence Score" max_length="40" name="confidence_score" type="integer"/>
+        <element label="Title" max_length="150" name="title" type="string"/>
+        <element label="Suggested Action" max_length="255" name="suggested_action" type="string"/>
+        <element label="Notification Sent" max_length="40" name="notification_sent" type="boolean"/>
+        <element label="Summary" max_length="255" name="summary" type="string"/>
+        <element label="Historical Context" max_length="255" name="historical_context" type="string"/>
+        <element choice="3" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="Technical Reason" max_length="255" name="technical_reason" type="string"/>
+        <element label="Alert Rule" max_length="32" name="alert_rule" reference="x_461782_trading_0_trading_alert_rule" type="reference"/>
+        <element label="News Reason" max_length="255" name="news_reason" type="string"/>
+        <element choice="3" label="Signal Type" max_length="40" name="signal_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Macro" sequence="2" value="macro"/>
+                <element inactive_on_update="false" label="Reversal" sequence="5" value="reversal"/>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="technical"/>
+                <element inactive_on_update="false" label="Volatility" sequence="3" value="volatility"/>
+                <element inactive_on_update="false" label="News" sequence="1" value="news"/>
+                <element inactive_on_update="false" label="Momentum" sequence="4" value="momentum"/>
+            </choice>
+        </element>
+        <element label="Watchlist Item" max_length="32" name="watchlist_item" reference="x_461782_trading_0_trading_watchlist_item" type="reference"/>
+        <element label="Created From Snapshot" max_length="32" name="created_from_snapshot" reference="x_461782_trading_0_market_data_snapshot" type="reference"/>
+        <index name="index">
+            <element name="alert_rule"/>
+        </index>
+        <index name="index2">
+            <element name="created_from_snapshot"/>
+        </index>
+        <index name="index3">
+            <element name="watchlist_item"/>
+        </index>
+    </element>
+</database>
